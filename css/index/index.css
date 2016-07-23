@@ -643,6 +643,7 @@ ul.each-info-list{
 /**********************中部内容区域的样式 end **********************/
 /********************底部的footer部分 begin ：**************************/
 .footer-wrap{
+	width: 100%;
 	background-color: #fff;
 }
 footer{
@@ -682,7 +683,7 @@ li.more-link>a{
 }
 .footer-bottom>ul{
 	float: left;
-	width: 170px;
+	min-width: 170px;
 }
 .footer-bottom>ul.app-download{
 	float: right;
@@ -699,5 +700,33 @@ li.more-link>a{
 .footer-bottom>ul>li:first-child~li>a:hover{
 	color: #333;
 }
-
-
+.contact-way>li>img{
+	width: 76px;
+	margin-left: -6px;
+}
+.app-download>li>img{
+	width: 116px;
+}
+.app-download>li{
+	text-align: center;
+}
+/*******************最底部的信息：*******************/
+address{
+	padding-top:18px;
+	padding-bottom: 38px;
+	text-align: center;
+	
+}
+address>a{
+	color: #808083;
+}
+address>a:first-child{
+	padding-right: 6px;
+	border-right: 1px solid #b3b3b3;
+}
+address>a:last-child:last-child{
+	padding-left: 6px;
+}
+address>a:last-child:hover{
+	color: #29b583;
+}
