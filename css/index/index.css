@@ -630,6 +630,7 @@ ul.each-info-list{
 	height: 15px;
 	background:url(../../img/index/controler_left.png) no-repeat;
 	cursor: pointer;
+	-webkit-user-select:none;
 }
 .right-controler{
 	position: absolute;
@@ -639,6 +640,7 @@ ul.each-info-list{
 	height: 15px;
 	background:url(../../img/index/controler_right.png) no-repeat;
 	cursor: pointer;
+	-webkit-user-select:none;
 }
 /**********************中部内容区域的样式 end **********************/
 /********************底部的footer部分 begin ：**************************/
